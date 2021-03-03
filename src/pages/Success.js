@@ -18,6 +18,7 @@ import {
   GetInTouch,
   UnderlinedElements
 } from './Success.elements'
+import ScrollToTop from '../components/ScrollToTop'
 
 const Success = () => {
   return (
@@ -69,6 +70,7 @@ const Success = () => {
             Get in touch with us directly: <Mailto><UnderlinedElements>Mitchellmujwit@protonmail.com</UnderlinedElements></Mailto>
           </GetInTouch>
         </SuccessPageContainer>
+        <ScrollToTop />
       <Footer />
     </>
   )

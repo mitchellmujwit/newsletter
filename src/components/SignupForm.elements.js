@@ -12,7 +12,7 @@ export const FormContainer = styled.div`
   flex-direction: column;
   width: 600px;
   padding-left: 60px;
-  padding-top: 340px;
+  padding-top: 300px;
   
   @media screen and (max-width: 600px){
     padding: 2rem 1rem 1rem 1rem
@@ -139,5 +139,5 @@ export const Img = styled.img`
   padding-right: 0;
   border: 0;
   float: right;
-  max-height: 500px;
+  max-height: 450px;
 `
